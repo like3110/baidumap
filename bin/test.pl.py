@@ -28,6 +28,5 @@ for eachline in result:
     conn187.commit()
 
 '''
-new_x_y=API_BaiDu.chg_coordinate(114.32894,30.585748,5,6,ak,sk)
+new_x_y = API_BaiDu.chg_coordinate(114.32894, 30.585748, 5, 6, ak, sk)
 print(new_x_y)
-
