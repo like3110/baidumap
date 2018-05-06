@@ -6,7 +6,6 @@ import base64
 from Crypto.Cipher import AES
 import cx_Oracle
 import pymysql
-from impala.dbapi import connect
 
 try:
     import xml.etree.cElementTree as etree
