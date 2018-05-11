@@ -3,6 +3,8 @@
 # 百度地图常用接口
 
 import urllib
+from urllib.parse import quote
+import urllib.request
 import hashlib
 import json
 

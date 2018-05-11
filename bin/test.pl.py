@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import API_BaiDu
-import db_connect
+#import db_connect
 
 ak = 'L1imtZ0YPWMXNfMNyj6Gk3aArX4eKQDP'
 sk = 'y8xmIhRK4IP2nb1GTOoaqIXoKNAolOfn'
@@ -28,5 +28,5 @@ for eachline in result:
     conn187.commit()
 
 '''
-new_x_y = API_BaiDu.chg_coordinate(114.32894, 30.585748, 5, 6, ak, sk)
+new_x_y = API_BaiDu.chg_coordinate(114.32894, 30.585748, 1, 6, ak, sk)
 print(new_x_y)
